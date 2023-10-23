@@ -1,17 +1,22 @@
 import React from 'react';
-import { filpkartLogo }  from '../sections';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
 
 const Nav = () => {
   return (
     <header className='padding-x py-8 absolute z-10 w-full'>
       <nav className='flex justify-between items-center max-container'>
       <img
-            src={filpkartLogo}
+            src="./images/filpkartLogo.png"
             alt='logo'
-            width={129}
+            width={230}
             height={29}
-            className='m-0 w-[129px] h-[29px]'
+            className='m-0 w-[160px] h-[29px]'
           />
+          <>
+<FontAwesomeIcon icon="fa-duotone fa-magnifying-glass" />
+</>
           
         </nav>
         </header>
